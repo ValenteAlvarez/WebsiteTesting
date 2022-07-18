@@ -1,0 +1,127 @@
+body {
+  background-repeat: no-repeat; }
+  body main {
+    padding-top: 9rem; }
+    body main .main-title {
+      font-size: 4rem;
+      margin: 1rem auto;
+      text-align: center;
+      text-transform: uppercase; }
+    body main .about-section {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+      body main .about-section .about-img {
+        display: block;
+        min-height: 10px;
+        flex: 0 1 600px;
+        margin: 1rem;
+        max-width: 40%;
+        border-radius: 10px; }
+      body main .about-section .about-text {
+        margin: 1rem;
+        flex: 0 1 450px; }
+        body main .about-section .about-text .about-title {
+          margin: 0 0 0.5rem 0;
+          font-weight: 700;
+          font-size: 2rem;
+          line-height: 1.8rem; }
+        body main .about-section .about-text .about-desc {
+          font-weight: 300;
+          margin: 0 0 2rem 0;
+          font-size: 1.1rem; }
+        body main .about-section .about-text .about-redirect {
+          color: var(--ma-pink);
+          padding: 5px;
+          border-radius: 5px;
+          transition: background-color 0.3s ease-out, color 0.3s ease-out; }
+        body main .about-section .about-text .about-redirect:hover {
+          background-color: var(--ma-pink);
+          color: white; }
+    body main .about-section.left {
+      flex-direction: row;
+      padding-left: 10%; }
+    body main .about-section.right {
+      flex-direction: row-reverse;
+      padding-right: 10%; }
+    body main .team-section .team-title {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      margin: 5rem auto 1rem auto;
+      text-align: center; }
+    body main .team-section .team-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem; }
+      body main .team-section .team-wrapper .teammate-card {
+        flex: 0 0 280px; }
+        body main .team-section .team-wrapper .teammate-card .teammate-img {
+          width: 300px;
+          height: 300px;
+          background-size: cover;
+          border-radius: 100%; }
+        body main .team-section .team-wrapper .teammate-card .teammate-text {
+          margin-top: 0.5rem;
+          text-align: center; }
+          body main .team-section .team-wrapper .teammate-card .teammate-text .teammate-name {
+            font-weight: 800; }
+          body main .team-section .team-wrapper .teammate-card .teammate-text .teammate-position {
+            font-weight: 300; }
+      body main .team-section .team-wrapper #adrian .teammate-img {
+        background-image: url(/media/img/team/nava.jpg); }
+      body main .team-section .team-wrapper #claudio .teammate-img {
+        background-image: url(/media/img/team/claudio.jpg); }
+      body main .team-section .team-wrapper #fatima .teammate-img {
+        background-image: url(/media/img/team/fatima.jpg); }
+      body main .team-section .team-wrapper #neto .teammate-img {
+        background-image: url(/media/img/team/neto.jpg); }
+      body main .team-section .team-wrapper #fer .teammate-img {
+        background-image: url(/media/img/team/fer.jpg); }
+      body main .team-section .team-wrapper #luis .teammate-img {
+        background-image: url(/media/img/team/luis.jpg); }
+      body main .team-section .team-wrapper #paco .teammate-img {
+        background-image: url(/media/img/team/paco.jpg); }
+      body main .team-section .team-wrapper #raul .teammate-img {
+        background-image: url(/media/img/team/raul.jpg); }
+      body main .team-section .team-wrapper #rodrigo .teammate-img {
+        background-image: url(/media/img/team/roflow.jpg); }
+      body main .team-section .team-wrapper #valente .teammate-img {
+        background-image: url(/media/img/team/valente.jpg); }
+    @media screen and (max-width: 750px) {
+      body main .team-section .team-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 20%; }
+        body main .team-section .team-wrapper .teammate-card {
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          flex: 0 0 auto;
+          justify-content: flex-start;
+          gap: 1rem; }
+          body main .team-section .team-wrapper .teammate-card .teammate-img {
+            width: 150px;
+            height: 150px;
+            flex: 0 0 auto; } }
+    body main .clients-section .clients-title {
+      margin: 5rem auto 2rem auto;
+      text-align: center;
+      text-transform: uppercase; }
+    body main .clients-section .clients-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 1rem 5rem;
+      gap: 2rem;
+      background: linear-gradient(to right, var(--ma-blue), var(--ma-purple), var(--ma-pink)); }
+      body main .clients-section .clients-wrapper img {
+        display: block;
+        max-width: 200px;
+        flex: 0 0 200px; }
+
+/*# sourceMappingURL=nosotros.css.map */
