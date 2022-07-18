@@ -1,2 +1,2 @@
-# WebsiteTesting
-Repository for testing personal websites
+# Mora-Azul-Web
+Website for Mora Azul Media

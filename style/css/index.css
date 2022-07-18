@@ -34,7 +34,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, rgba(62, 16, 67, 0.5), transparent, rgba(62, 16, 67, 0.5)); }
+  background: linear-gradient(to right, var(--ma-blue), var(--ma-purple));
+  opacity: .25; }
 
 @media screen and (max-width: 650px) {
   .bg-video-wrapper .bg-video-text {
@@ -46,6 +47,7 @@
       font-size: 1.2rem; } }
 .section-title {
   font-size: 3rem;
+  line-height: 2.9rem;
   margin: auto;
   text-align: center; }
 
@@ -71,13 +73,11 @@ section.nosotros {
     section.nosotros .nosotros-div .about-text {
       padding: 1rem 3rem;
       position: relative;
-      transform: translate(0);
       flex: 0 1 30%; }
       section.nosotros .nosotros-div .about-text .about-title {
         margin-bottom: 1.5rem;
         line-height: 2.5rem;
-        color: var(--ma-blue);
-        z-index: 300; }
+        color: var(--ma-blue); }
         @media screen and (max-width: 750px) {
           section.nosotros .nosotros-div .about-text .about-title {
             line-height: 1.9rem;
@@ -92,8 +92,7 @@ section.nosotros {
         padding: 5px 10px;
         border: 3px solid var(--ma-blue);
         border-radius: 3px;
-        transition: all 0.2s ease-in-out;
-        z-index: 300; }
+        transition: all 0.2s ease-in-out; }
       section.nosotros .nosotros-div .about-text .about-redirect:hover {
         color: white;
         background-color: var(--ma-blue); }
@@ -130,10 +129,15 @@ section.nosotros {
       flex-direction: column;
       margin-bottom: 6rem; }
       section.nosotros .nosotros-div .about-img, section.nosotros .nosotros-div .about-text, section.nosotros .nosotros-div.reverse .about-img, section.nosotros .nosotros-div.reverse .about-text {
-        flex: 1 1 auto;
-        width: 100%; }
+        flex: 0 1 auto;
+        width: auto; }
         section.nosotros .nosotros-div .about-img .about-title, section.nosotros .nosotros-div .about-img .about-desc, section.nosotros .nosotros-div .about-text .about-title, section.nosotros .nosotros-div .about-text .about-desc, section.nosotros .nosotros-div.reverse .about-img .about-title, section.nosotros .nosotros-div.reverse .about-img .about-desc, section.nosotros .nosotros-div.reverse .about-text .about-title, section.nosotros .nosotros-div.reverse .about-text .about-desc {
-          width: 100%; }
+          width: auto;
+          margin-bottom: 1rem; }
+      section.nosotros .nosotros-div .about-img, section.nosotros .nosotros-div.reverse .about-img {
+        margin-bottom: 1rem; }
+      section.nosotros .nosotros-div .about-text, section.nosotros .nosotros-div.reverse .about-text {
+        padding: 1rem 2rem; }
     section.nosotros .nosotros-div.reverse .about-text {
       text-align: right; } }
 
