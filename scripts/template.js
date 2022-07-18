@@ -1,6 +1,6 @@
 function embedNavBar(){
     const navBar = document.querySelector('.nav-bar');
-    fetch('/navbar.html')
+    fetch('../navbar.html')
     .then(resp => resp.text())
     .then(data => {
         navBar.innerHTML = data;
@@ -9,7 +9,7 @@ function embedNavBar(){
 
 function embedFooter(){
     const footer = document.querySelector('.site-footer');
-    fetch('/footer.html')
+    fetch('../footer.html')
     .then(resp => resp.text())
     .then(data => {
         footer.innerHTML = data;
